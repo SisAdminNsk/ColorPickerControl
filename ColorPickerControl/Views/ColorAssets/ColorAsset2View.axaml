@@ -1,0 +1,54 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 xmlns:local="clr-namespace:ColorPickerControl.ViewModels.ColorAssets"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 x:DataType="local:ColorAsset2ViewModel"
+             x:Class="ColorPickerControl.Views.ColorAssets.ColorAsset2View">
+
+	<Grid HorizontalAlignment="Center" VerticalAlignment="Center" ColumnDefinitions="Auto,Auto,Auto,Auto,Auto" Margin="20,10,0,0">
+		<StackPanel Orientation="Vertical">
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,10,0,10" Width="50" Height="50" Fill="Coral"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="ForestGreen"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="LimeGreen"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="BlueViolet"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="YellowGreen"></Rectangle>
+		</StackPanel>
+
+		<StackPanel Margin="10,0,0,0" Grid.Column="1" Orientation="Vertical">
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,10,0,10" Width="50" Height="50" Fill="Red"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="Green"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="Blue"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="Orange"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="Aqua"></Rectangle>
+		</StackPanel>
+
+		<StackPanel Margin="10,0,0,0" Grid.Column="2" Orientation="Vertical">
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,10,0,10" Width="50" Height="50" Fill="LightSkyBlue"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="CornflowerBlue"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="MistyRose"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="Magenta"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="GreenYellow"></Rectangle>
+		</StackPanel>
+
+		<StackPanel Margin="10,0,0,0" Grid.Column="3" Orientation="Vertical">
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,10,0,10" Width="50" Height="50" Fill="Yellow"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="Tomato"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="LightSalmon"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="SaddleBrown"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="Brown"></Rectangle>
+		</StackPanel>
+
+		<StackPanel Margin="10,0,0,0" Grid.Column="4" Orientation="Vertical">
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,10,0,10" Width="50" Height="50" Fill="LightSteelBlue"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="Olive"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="OldLace"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="OliveDrab"></Rectangle>
+			<Rectangle Tapped="RectangleTappedHandler" Margin="0,0,0,10" Width="50" Height="50" Fill="LemonChiffon"></Rectangle>
+		</StackPanel>
+	</Grid>
+
+
+
+</UserControl>
